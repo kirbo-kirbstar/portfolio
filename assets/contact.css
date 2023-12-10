@@ -1,0 +1,60 @@
+/*Below is the code I used in Jotform to make the contact form. Jotform allows you to inject custom CSS into your form. This css file is purely to show my work and is not linked to any pages used in the actual website*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family : 'Poppins', sans-serif;
+}
+
+.form-textbox {
+    width : 940px;
+    padding : 12px;
+    /* Some padding */ 
+    border : none;
+    border-radius : 25px;
+    /* Rounded borders */
+    box-sizing : border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top : 6px;
+    /* Add a top margin */
+    margin-bottom : 16px;
+    /* Bottom margin */
+    resize : vertical /* Allow the user to vertically resize the textarea (not
+    horizontally) */;
+}
+
+/* Style the submit button with a specific background color etc */
+.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField {
+    background-color : #555A81;
+    color : #F0F0F0;
+    font-size : 20px;
+    padding : 15px 20px;
+    border-radius : 25px;
+    border : 2px solid #555A81;
+    transition-duration : 0.4s;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField:hover {
+    background-color : #F0F0F0;
+    color : #6D6988;
+    border : 2px solid #6D6988;
+}
+
+/* Add a background color and some padding around the form */
+.form-section.page-section {
+    max-width : 940px;
+    margin : auto;
+    padding : 10px;
+    text-align : right;
+    margin-top : 57px;
+    overflow : hidden;
+}
+
+.form-label.form-label-top {
+    height : 0px;
+}
+
+.form-required {
+    visibility : hidden;
+}

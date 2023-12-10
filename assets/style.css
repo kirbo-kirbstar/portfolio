@@ -1,0 +1,186 @@
+body{
+    background-color: #CACEEF;
+    overflow-x: hidden;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #555A81;
+}
+
+.header{
+    background-color: #F0F0F0;
+    max-height: 400px;
+    height: auto;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    flex-direction: flex;
+    display: flex;
+}
+
+.header img{
+    display:block;
+    margin:auto;
+    padding-top: 115px;
+    padding-bottom: 58px;
+    max-width: 1004px;
+    width: 100%;
+    height: auto;
+}
+
+.navigation{
+    align-content: center;
+    background-color: #F0F0F0;
+    margin: auto;
+    margin-top: 21px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+footer{
+    background-color: #F0F0F0;
+    text-align: right;
+    padding-right: 20px;
+    width: auto;
+    height: 61px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+h1{
+    font-weight: bold;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 64px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.return{
+    text-align: center;
+}
+.gallery{
+    background-color: #F0F0F0;
+    max-width: 940px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 57px;
+    overflow: hidden;
+}
+
+.tshirts img{
+    width: 261.84px;
+}
+
+.misc{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: -10px;
+  }
+  
+.misc img{
+    padding: 10px;
+    height: 300px;
+  }
+
+  .reading{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: -10px;
+  }
+
+.reading img{
+    padding: 10px;
+    height: 600px;
+}
+
+.comics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.the-rite-of-passage{
+    position: relative;
+}
+
+#egdeer{
+    margin-bottom: 40px;
+}
+
+.left{
+    float: left;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.right{
+    float: right;
+    max-width: 400px;
+    
+}
+
+button{
+    background-color: #555A81;
+    color: #F0F0F0;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 2px solid #555A81;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #F0F0F0;
+    color: #6D6988;
+    border: 2px solid #555A81;    
+}
+
+.egdeer{ /*use CSS Grids to make this look like the Figma*/
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 250 250 250;
+    grid-template-rows: 250 250 250;
+    justify-items: center;
+}
+
+.meet-egdeer{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.about-egd{
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 3;
+}
+
+.egdeer-comics{
+    grid: 1 1;
+}
+.round-image{
+    border-radius: 50%;
+    float: left;
+    margin: 64px;
+}
+
+.bio{
+    margin: 40px;
+    margin-top: 95px;
+}
+
+.merchandise img{
+    margin: 10px;
+}
