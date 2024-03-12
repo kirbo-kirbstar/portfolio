@@ -145,7 +145,8 @@ button{
 button:hover{
     background-color: #F0F0F0;
     color: #6D6988;
-    border: 2px solid #555A81;    
+    border: 2px solid #555A81;  
+    cursor: pointer;
 }
 
 .egdeer{ /*use CSS Grids to make this look like the Figma*/
