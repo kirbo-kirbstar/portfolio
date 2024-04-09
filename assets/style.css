@@ -174,14 +174,13 @@ button:hover{
 }
 .round-image{
     border-radius: 50%;
-    float: left;
-    margin: 64px;
 }
 
 .bio{
     margin: 40px;
-    margin-top: 95px;
 }
+
+
 
 .merchandise img{
     margin: 10px;
