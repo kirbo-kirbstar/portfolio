@@ -185,13 +185,20 @@ button:hover{
     margin: 10px;
 }
 
-/*Storyboard Page*/
+/*Storyboard Page OLD VERSION
 .storyboards {
     display: grid;
     grid-template-columns: auto auto;
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
+}
+*/
+/*New Storyboard Page*/
+.storyboards {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
 }
 
 @media (max-width: 800px) {
