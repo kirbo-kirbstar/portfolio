@@ -1,4 +1,4 @@
 document.querySelector(".writeFooter").innerHTML = `
-<p>©2024 Marlene Santos</p>
+<p>©2025 Marlene Santos</p>
 
 `;
