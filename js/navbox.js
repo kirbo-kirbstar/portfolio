@@ -4,5 +4,8 @@ document.querySelector(".navigation").innerHTML = `
             <a href="index.html">Storyboards</a> |
             <a href="about.html">About</a>
             </b>
+            <br>
+            <p style="text-align: center;">itsmarlenesantos@gmail.com</p>
+
         </nav>
 `;
