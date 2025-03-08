@@ -5,7 +5,7 @@ document.querySelector(".navigation").innerHTML = `
             <a href="about.html">About</a>
             </b>
             <br>
-            <p style="text-align: center;">itsmarlenesantos@gmail.com</p>
+            <p style="text-align: center;">Email me at: <b>hello@marlenesantos.com</b></p>
 
         </nav>
 `;
