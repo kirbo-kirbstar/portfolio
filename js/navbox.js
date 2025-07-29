@@ -3,6 +3,7 @@ document.querySelector(".navigation").innerHTML = `
             <b>
             <a href="index.html">Storyboards</a> |
             <a href="films.html">Films</a> |
+            <a href="illustration.html">Illustration</a> |
             <a href="about.html">About</a>
             </b>
             <br>
